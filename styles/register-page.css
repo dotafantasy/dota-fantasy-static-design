@@ -1,0 +1,94 @@
+.bg-primary{
+	background: #1B6623 !important;
+}
+
+.bg-secondary{
+	background: #343A40 !important;
+}
+
+.jumbotron{
+	height: 100px;
+	text-align: center;
+	align-content: center;
+	align-items: center;
+}
+
+.login-page{
+	widith 360px;
+	padding: 10% 0 0;
+	margin: auto;
+}
+
+.form{
+	position: relative;
+	z-index: 1;
+	background: rgba(7, 40, 50, 0.8);
+	max-width: 600px;
+	margin: 0 auto 100px;
+	padding: 45px;
+	text-align: center;
+}
+
+.form input{
+	font-family: "Roboto",sans-serif;
+	outline: 1;
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 8px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+.form button{
+	font-family: "Roboto", sans-serif;
+	text-transform: uppercase;
+	outline: 0;
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+	cursor: pointer;
+}
+
+.form button:hover,.form button:active{
+	background: #43A047;
+}
+
+.form .message{
+	margin: 15px 0 0;
+	color: aliceblue;
+	font-size: 16px
+}
+
+.form .message a{
+	color: #4CAF50;
+	text-decoration: none;
+}
+
+.form .register-form{
+	display: none;
+}
+
+.login-text{
+	color: white;
+}
+
+.checkbox-container{
+	margin: 15px 15px 15px;
+	color: aliceblue;
+	font-size: 16px;
+	color: #4CAF50;
+	text-decoration: none;
+	display: inline;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 14px;
+	font-size: 42px;
+	transform: rotate(45deg);
+	cursor: pointer;
